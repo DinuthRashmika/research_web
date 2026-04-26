@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadSafety | Real-Time Intelligent Road Safety Monitoring System</title>
+    <meta name="description" content="RoadSafety: A real-time AI-based framework for proactive transportation security.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Persistent Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Road<span>Safety</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#domain">Domain</a></li>
+                <li class="dropdown">
+                    <a href="#milestones">Milestones ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#milestone-proposal">Project Proposal</a></li>
+                        <li><a href="#milestone-pp1">Progress Presentation-1</a></li>
+                        <li><a href="#milestone-pp2">Progress Presentation-2</a></li>
+                        <li><a href="#milestone-final">Final Assessment</a></li>
+                        <li><a href="#milestone-viva">Viva</a></li>
+                    </ul>
+                </li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#presentations">Presentations</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Real-Time Intelligent Road Safety <span class="highlight">Monitoring System</span></h1>
+                <p>RoadSafety is an AI-driven ecosystem unifying four interconnected modules into a proactive transportation security framework. We monitor the overall traffic scenario and internal driver behavior using YOLOv11, EasyOCR, and hybrid CNN-LSTM architectures. Our solution features a robust Python core, a Flutter mobile application for driver notifications, and a React application for real-time authority monitoring.</p>
+                <div class="hero-graphics">
+                    <!-- Images for architecture -->
+                    <div class="hero-image-container" aria-label="System Architecture">
+                        <img src="images/architecture_diagram.png" alt="System Architecture Diagram" class="hero-image">
+                    </div>
+                    <div class="hero-image-container" aria-label="AI Monitoring Visualization">
+                        <img src="images/ai_visualization.png" alt="AI Monitoring Visualization" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Domain Section -->
+        <section id="domain" class="domain-section">
+            <h2>Project Domain</h2>
+            <div class="domain-grid">
+                <div class="domain-card full-width">
+                    <h3>Research Problem</h3>
+                    <p>Urban cities are experiencing a severe escalation of traffic infractions, severe collisions, and unpredictable security threats on the roads. The inherent inefficiency of manual surveillance systems fails to provide proactive and immediate responses. There is an urgent need for an automated, real-time framework to reliably address these compounding dangers and protect all road users.</p>
+                </div>
+                
+                <div class="domain-card">
+                    <h3>1. Real-Time Violence Detection</h3>
+                    <p>Recognizes violent actions and weapon presence using a hybrid CNN-LSTM architecture combined with YOLOv11 for robust, high-speed spatial-temporal analysis.</p>
+                </div>
+                
+                <div class="domain-card">
+                    <h3>2. Vehicle Violation Management</h3>
+                    <p>Deploys YOLOv11 and EasyOCR on CCTV feeds to dynamically detect helmetless riding, triple riding, and line crossings, generating immediate edge-based warnings.</p>
+                </div>
+
+                <div class="domain-card">
+                    <h3>3. Automated Accident Triage</h3>
+                    <p>Utilizes a 6-Parameter Multi-Criteria algorithm scoring emergencies based on: Vehicle Vulnerability, Location Risk, Time-of-Day, Holiday Surges, Severity Grade, and Distance Urgency. Includes a critical Fire Override feature.</p>
+                </div>
+
+                <div class="domain-card">
+                    <h3>4. Distributed Driver Monitoring</h3>
+                    <p>A Flutter mobile app streams live frames to a FastAPI backend. We utilize YOLOv11 to continuously detect drowsiness, yawning, distraction, phone use, and seatbelt compliance to alert drivers immediately.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Milestones Section -->
+        <section id="milestones" class="milestones-section">
+            <h2>Milestones & Assessments</h2>
+            <div class="timeline">
+                <div class="timeline-item" id="milestone-proposal">
+                    <div class="timeline-date">[Date Placeholder]</div>
+                    <div class="timeline-content">
+                        <h3>Project Proposal</h3>
+                        <div class="marks-badge">Marks Allocated: [XX]%</div>
+                        <p>[Assessment Details Placeholder] Presenting the initial feasibility, scope, and problem definition of the RoadSafety framework.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="milestone-pp1">
+                    <div class="timeline-date">[Date Placeholder]</div>
+                    <div class="timeline-content">
+                        <h3>Progress Presentation-1</h3>
+                        <div class="marks-badge">Marks Allocated: [XX]%</div>
+                        <p>[Assessment Details Placeholder] Showcasing the preliminary AI models and overall architecture of the 4 interconnected modules.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="milestone-pp2">
+                    <div class="timeline-date">[Date Placeholder]</div>
+                    <div class="timeline-content">
+                        <h3>Progress Presentation-2</h3>
+                        <div class="marks-badge">Marks Allocated: [XX]%</div>
+                        <p>[Assessment Details Placeholder] Demonstrating working prototypes, mobile integration, and edge-based real-time warnings.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="milestone-final">
+                    <div class="timeline-date">[Date Placeholder]</div>
+                    <div class="timeline-content">
+                        <h3>Final Assessment</h3>
+                        <div class="marks-badge">Marks Allocated: [XX]%</div>
+                        <p>[Assessment Details Placeholder] Comprehensive evaluation of the entire ecosystem, the React dashboard, and the 80-page final document.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" id="milestone-viva">
+                    <div class="timeline-date">[Date Placeholder]</div>
+                    <div class="timeline-content">
+                        <h3>Viva</h3>
+                        <div class="marks-badge">Marks Allocated: [XX]%</div>
+                        <p>[Assessment Details Placeholder] Oral examination and Q&A session defending the individual technical contributions and research novelty to the panel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documents Section -->
+        <section id="documents" class="documents-section">
+            <h2>Documents</h2>
+            <div class="document-list">
+                <a href="documents/project_charter.pdf" download class="document-item">
+                    <div class="doc-icon">📄</div>
+                    <div class="doc-info">
+                        <h3>Project Charter</h3>
+                        <p>Initial agreement, timeline, and scope</p>
+                    </div>
+                    <div class="doc-action">Download <span>↓</span></div>
+                </a>
+                <a href="documents/proposal_document.pdf" download class="document-item">
+                    <div class="doc-icon">📑</div>
+                    <div class="doc-info">
+                        <h3>Proposal Document</h3>
+                        <p>Detailed research proposal and literature review</p>
+                    </div>
+                    <div class="doc-action">Download <span>↓</span></div>
+                </a>
+                <a href="documents/check_list.pdf" download class="document-item">
+                    <div class="doc-icon">✅</div>
+                    <div class="doc-info">
+                        <h3>Check List Documents</h3>
+                        <p>Evaluation criteria and current project status</p>
+                    </div>
+                    <div class="doc-action">Download <span>↓</span></div>
+                </a>
+                <a href="documents/final_document.pdf" download class="document-item">
+                    <div class="doc-icon">📚</div>
+                    <div class="doc-info">
+                        <h3>Final Document (80-Page)</h3>
+                        <p>Comprehensive research thesis and system documentation</p>
+                    </div>
+                    <div class="doc-action">Download <span>↓</span></div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Presentations Section -->
+        <section id="presentations" class="presentations-section">
+            <h2>Presentations</h2>
+            <div class="presentation-grid">
+                <div class="presentation-card">
+                    <div class="presentation-preview">
+                        <span class="slide-icon">📊</span>
+                        <span>Proposal Slides</span>
+                    </div>
+                    <h3>Proposal Presentation</h3>
+                    <a href="presentations/proposal_presentation.pdf" download class="btn">View Slides</a>
+                </div>
+                <div class="presentation-card">
+                    <div class="presentation-preview">
+                        <span class="slide-icon">📊</span>
+                        <span>Progress-1 Slides</span>
+                    </div>
+                    <h3>Progress Presentation-1</h3>
+                    <a href="presentations/progress_presentation_1.pdf" download class="btn">View Slides</a>
+                </div>
+                <div class="presentation-card">
+                    <div class="presentation-preview">
+                        <span class="slide-icon">📊</span>
+                        <span>Progress-2 Slides</span>
+                    </div>
+                    <h3>Progress Presentation-2</h3>
+                    <a href="presentations/progress_presentation_2.pdf" download class="btn">View Slides</a>
+                </div>
+                <div class="presentation-card">
+                    <div class="presentation-preview">
+                        <span class="slide-icon">📊</span>
+                        <span>Final Slides</span>
+                    </div>
+                    <h3>Final Presentation</h3>
+                    <a href="presentations/final_presentation.pdf" download class="btn">View Slides</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us" class="about-section">
+            <h2>About Us</h2>
+            <p class="about-intro">We are undergraduate students from the Sri Lanka Institute of Information Technology (SLIIT) Faculty of Computing.</p>
+            
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3>Welandagoda DRL</h3>
+                    <p class="email"><a href="mailto:dinuthwelandagoda@gmail.com">dinuthwelandagoda@gmail.com</a></p>
+                </div>
+                <!-- Member 2 -->
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3>Senavirathna KTMK</h3>
+                    <p class="email"><a href="mailto:kawishkasenavirathna2002@gmail.com">kawishkasenavirathna2002@gmail.com</a></p>
+                </div>
+                <!-- Member 3 -->
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3>De Silva K WSC</h3>
+                    <p class="email"><a href="mailto:shenalchanuka3@gmail.com">shenalchanuka3@gmail.com</a></p>
+                </div>
+                <!-- Member 4 -->
+                <div class="team-member">
+                    <div class="member-photo"></div>
+                    <h3>Ranasinghe D PS</h3>
+                    <p class="email"><a href="mailto:sapunikasr@gmail.com">sapunikasr@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="supervisors-section">
+                <h3>Our Supervisors</h3>
+                <div class="supervisors-grid">
+                    <div class="supervisor-card">
+                        <h4>Ms. Karthiga Rajendran</h4>
+                        <p>Supervisor</p>
+                    </div>
+                    <div class="supervisor-card">
+                        <h4>Mr. Eishan Weerasinghe</h4>
+                        <p>Co-Supervisor</p>
+                    </div>
+                    <div class="supervisor-card">
+                        <h4>SSP Ramindu De Silva</h4>
+                        <p>External Supervisor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact-us" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>For any inquiries regarding the RoadSafety project, please contact us or the SLIIT university directly using the details below.</p>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>[General University Phone]</p>
+                            <p>[Project Phone Number]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p><a href="mailto:info@sliit.lk">[University/Project Email]</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="#" method="POST" class="email-template-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject / Inquiry Topic">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Detailed Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Road<span>Safety</span></div>
+            <p>&copy; 2024 SLIIT RoadSafety Project Team. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
