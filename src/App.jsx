@@ -104,7 +104,7 @@ const App = () => {
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/hero_traffic_monitoring_1777864153216.png"
+            src="images/hero_traffic_monitoring_1777864153216.png"
             alt="AI Traffic Monitoring"
             className="w-full h-full object-cover object-center scale-105"
           />
@@ -368,7 +368,7 @@ const App = () => {
               <div className="relative group">
                 <div className="absolute -inset-3 bg-gradient-to-br from-red-500/10 via-orange-400/5 to-transparent rounded-[2.5rem] blur-xl group-hover:from-red-500/20 transition-all duration-700"></div>
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-black/60 border border-white/5">
-                  <img src="/images/violence_cctv_detection.png" alt="Violence Detection CCTV" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                  <img src="images/violence_cctv_detection.png" alt="Violence Detection CCTV" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
                     <div>
@@ -435,7 +435,7 @@ const App = () => {
               <div className="order-1 relative group">
                 <div className="absolute -inset-3 bg-gradient-to-br from-yellow-400/10 via-primary/5 to-transparent rounded-[2.5rem] blur-xl group-hover:from-yellow-400/20 transition-all duration-700"></div>
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-black/60 border border-white/5">
-                  <img src="/images/vehicle_violation_detect_1777864171930.png" alt="Vehicle Violations" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                  <img src="images/vehicle_violation_detect_1777864171930.png" alt="Vehicle Violations" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
                     <div>
@@ -458,7 +458,7 @@ const App = () => {
               <div className="relative group">
                 <div className="absolute -inset-3 bg-gradient-to-br from-secondary/10 via-brown-400/5 to-transparent rounded-[2.5rem] blur-xl group-hover:from-secondary/20 transition-all duration-700"></div>
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-black/60 border border-white/5">
-                  <img src="/images/driver_monitor_ai_1777864188937.png" alt="Driver Monitoring" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                  <img src="images/driver_monitor_ai_1777864188937.png" alt="Driver Monitoring" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
                     <div>
@@ -525,7 +525,7 @@ const App = () => {
               <div className="order-1 relative group">
                 <div className="absolute -inset-3 bg-gradient-to-br from-gray-400/10 via-gray-300/5 to-transparent rounded-[2.5rem] blur-xl group-hover:from-gray-400/20 transition-all duration-700"></div>
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-black/60 border border-white/5">
-                  <img src="/images/triage_dashboard_ui_1777864206660.png" alt="Triage Dashboard" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                  <img src="images/triage_dashboard_ui_1777864206660.png" alt="Triage Dashboard" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 flex items-end justify-between">
                     <div>
@@ -646,7 +646,7 @@ const App = () => {
           <div className="flex flex-col lg:flex-row gap-8 items-stretch">
             <div className="lg:w-5/12 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/50 min-h-[360px] relative group">
               <img
-                src="/images/hero_traffic_monitoring_1777864153216.png"
+                src="images/hero_traffic_monitoring_1777864153216.png"
                 alt="Road Safety Methodology"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -722,7 +722,7 @@ const App = () => {
             <div className="group flex flex-col">
               <div className="relative rounded-[2rem] overflow-hidden shadow-xl shadow-black/50 mb-6 h-64 md:h-72">
                 <img
-                  src="/images/road_safety_surveillance.png"
+                  src="images/road_safety_surveillance.png"
                   alt="Smart Road Surveillance"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -746,7 +746,7 @@ const App = () => {
             <div className="group flex flex-col">
               <div className="relative rounded-[2rem] overflow-hidden shadow-xl shadow-black/50 mb-6 h-64 md:h-72">
                 <img
-                  src="/images/driver_alert_system.png"
+                  src="images/driver_alert_system.png"
                   alt="Driver Alertness Monitoring"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -770,7 +770,7 @@ const App = () => {
             <div className="group flex flex-col">
               <div className="relative rounded-[2rem] overflow-hidden shadow-xl shadow-black/50 mb-6 h-64 md:h-72">
                 <img
-                  src="/images/emergency_dispatch_response.png"
+                  src="images/emergency_dispatch_response.png"
                   alt="Emergency Response Coordination"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -1067,10 +1067,10 @@ const App = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: 'Ranasinghe D P S', module: 'Violence Detection', image: '/images/team/ranasinghe.png' },
-              { name: 'De Silva K W S C', module: 'Vehicle Violations', image: '/images/team/desilva.png' },
-              { name: 'Welandagoda D R L', module: 'Driver Monitoring', image: '/images/team/welandagoda.png' },
-              { name: 'Senavirathna K T M K', module: 'Accident Triage', image: '/images/team/senavirathna.png' }
+              { name: 'Ranasinghe D P S', module: 'Violence Detection', image: 'images/team/ranasinghe.png' },
+              { name: 'De Silva K W S C', module: 'Vehicle Violations', image: 'images/team/desilva.png' },
+              { name: 'Welandagoda D R L', module: 'Driver Monitoring', image: 'images/team/welandagoda.png' },
+              { name: 'Senavirathna K T M K', module: 'Accident Triage', image: 'images/team/senavirathna.png' }
             ].map((member, idx) => (
               <div key={idx} className="group relative">
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-yellow-100 to-transparent rounded-[2rem] blur-xl opacity-0 group-hover:opacity-100 transition duration-700"></div>
@@ -1110,8 +1110,8 @@ const App = () => {
 
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { name: 'Ms. Karthiga Rajendran', role: 'Lecturer / Supervisor', org: 'SLIIT', image: '/images/team/karthiga.jpg' },
-                { name: 'Mr. Eishan Weerasinghe', role: 'Lecturer / Co-Supervisor', org: 'SLIIT', image: '/images/team/eishan.jpg' },
+                { name: 'Ms. Karthiga Rajendran', role: 'Lecturer / Supervisor', org: 'SLIIT', image: 'images/team/karthiga.jpg' },
+                { name: 'Mr. Eishan Weerasinghe', role: 'Lecturer / Co-Supervisor', org: 'SLIIT', image: 'images/team/eishan.jpg' },
                 { name: 'SSP Ramindu De Silva', role: 'External Supervisor', org: 'Sri Lanka Police', image: null }
               ].map((sup, idx) => (
                 <div key={idx} className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:bg-[#27272a] hover:shadow-xl hover:shadow-black/50 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center">
