@@ -64,9 +64,6 @@ const App = () => {
                   {link.name}
                 </a>
               ))}
-              <a href="#about" className="ml-2 px-6 py-2.5 rounded-lg font-bold text-[14px] bg-yellow-400 text-gray-900 hover:bg-yellow-500 transition-colors shadow-sm">
-                Get Started
-              </a>
             </div>
 
             {/* Mobile Menu Button */}
