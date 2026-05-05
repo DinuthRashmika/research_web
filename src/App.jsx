@@ -1086,8 +1086,8 @@ const App = () => {
                     <div className="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent pointer-events-none"></div>
                   </div>
 
-                  <h4 className="text-xl font-black text-white mb-2 leading-tight">{member.name}</h4>
-                  <p className="text-yellow-500 font-bold text-sm mb-4">{member.role}</p>
+                  <h4 className="text-xl font-black text-white mb-1 leading-tight">{member.name}</h4>
+                  <p className="text-yellow-500 font-bold text-[11px] mb-4 opacity-80">{member.email}</p>
 
                   <div className="mt-auto pt-6 border-t border-gray-100">
                     <span className="inline-flex items-center gap-1.5 py-1 px-3 rounded-md bg-[#111111] border border-white/5 text-gray-400 font-bold text-[10px] tracking-widest uppercase">
@@ -1123,7 +1123,8 @@ const App = () => {
                     )}
                   </div>
                   <h5 className="font-black text-lg text-white mb-1">{sup.name}</h5>
-                  <p className="text-primary-dark font-bold text-sm mb-3">{sup.role}</p>
+                  <p className="text-primary-dark font-bold text-sm mb-1">{sup.role}</p>
+                  {sup.email && <p className="text-yellow-500 font-bold text-[10px] mb-3 opacity-80">{sup.email}</p>}
                   <p className="text-gray-400 text-xs font-medium uppercase tracking-widest">{sup.org}</p>
                 </a>
               ))}
