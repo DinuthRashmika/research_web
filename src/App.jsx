@@ -1158,6 +1158,7 @@ const App = () => {
             <div className="flex flex-col items-center lg:items-end text-center lg:text-right space-y-2">
               <p className="text-white font-bold text-lg tracking-wide">Sri Lanka Institute of Information Technology</p>
               <p className="text-gray-400 font-medium">Faculty of Computing · Research Project</p>
+              <a href="mailto:dinuthwelandagoda@gmail.com" className="text-yellow-500 font-bold text-sm hover:text-yellow-400 transition-colors">dinuthwelandagoda@gmail.com</a>
               <div className="flex gap-4 mt-6">
                 {['Twitter', 'GitHub', 'LinkedIn'].map(social => (
                   <button key={social} className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-primary hover:bg-white/10 transition-colors">
