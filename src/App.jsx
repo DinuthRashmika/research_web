@@ -1067,12 +1067,12 @@ const App = () => {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: 'Ranasinghe D P S', module: 'Violence Detection', image: 'images/team/ranasinghe.png' },
-              { name: 'De Silva K W S C', module: 'Vehicle Violations', image: 'images/team/desilva.png' },
-              { name: 'Welandagoda D R L', module: 'Driver Monitoring', image: 'images/team/welandagoda.png' },
-              { name: 'Senavirathna K T M K', module: 'Accident Triage', image: 'images/team/senavirathna.png' }
+              { name: 'Welandagoda D R L', module: 'Driver Monitoring', image: 'images/team/welandagoda.png', email: 'dinuthwelandagoda@gmail.com' },
+              { name: 'De Silva K W S C', module: 'Vehicle Violations', image: 'images/team/desilva.png', email: 'shenalchanuka3@gmail.com' },
+              { name: 'Senavirathna K T M K', module: 'Accident Triage', image: 'images/team/senavirathna.png', email: 'kawishkasenavirathna2002@gmail.com' },
+              { name: 'Ranasinghe D P S', module: 'Violence Detection', image: 'images/team/ranasinghe.png', email: 'sapunikasr@gmail.com' }
             ].map((member, idx) => (
-              <div key={idx} className="group relative">
+              <a key={idx} href={`mailto:${member.email}`} className="group relative block">
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-yellow-100 to-transparent rounded-[2rem] blur-xl opacity-0 group-hover:opacity-100 transition duration-700"></div>
                 <div className="relative bg-[#18181b] p-8 rounded-[2rem] border border-white/5 shadow-xl shadow-black/50 group-hover:-translate-y-2 transition-all duration-500 h-full flex flex-col">
 
@@ -1096,7 +1096,7 @@ const App = () => {
                   </div>
 
                 </div>
-              </div>
+              </a>
             ))}
           </div>
 
@@ -1110,11 +1110,11 @@ const App = () => {
 
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { name: 'Ms. Karthiga Rajendran', role: 'Lecturer / Supervisor', org: 'SLIIT', image: 'images/team/karthiga.jpg' },
-                { name: 'Mr. Eishan Weerasinghe', role: 'Lecturer / Co-Supervisor', org: 'SLIIT', image: 'images/team/eishan.jpg' },
+                { name: 'Ms. Karthiga Rajendran', role: 'Lecturer / Supervisor', org: 'SLIIT', image: 'images/team/karthiga.jpg', email: 'karthiga.r@sliit.lk' },
+                { name: 'Mr. Eishan Weerasinghe', role: 'Lecturer / Co-Supervisor', org: 'SLIIT', image: 'images/team/eishan.jpg', email: 'eishan.w@sliit.lk' },
                 { name: 'SSP Ramindu De Silva', role: 'External Supervisor', org: 'Sri Lanka Police', image: null }
               ].map((sup, idx) => (
-                <div key={idx} className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:bg-[#27272a] hover:shadow-xl hover:shadow-black/50 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center">
+                <a key={idx} href={sup.email ? `mailto:${sup.email}` : '#'} className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:bg-[#27272a] hover:shadow-xl hover:shadow-black/50 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
                   <div className="w-20 h-20 rounded-full bg-[#111111] mb-5 overflow-hidden border-2 border-white/10 shadow-sm flex items-center justify-center">
                     {sup.image ? (
                       <img src={sup.image} alt={sup.name} className="w-full h-full object-cover" />
@@ -1125,7 +1125,7 @@ const App = () => {
                   <h5 className="font-black text-lg text-white mb-1">{sup.name}</h5>
                   <p className="text-primary-dark font-bold text-sm mb-3">{sup.role}</p>
                   <p className="text-gray-400 text-xs font-medium uppercase tracking-widest">{sup.org}</p>
-                </div>
+                </a>
               ))}
             </div>
           </div>
