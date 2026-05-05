@@ -1108,23 +1108,22 @@ const App = () => {
               <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent to-white/10"></div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 gap-6">
               {[
                 { name: 'Ms. Karthiga Rajendran', role: 'Lecturer / Supervisor', org: 'SLIIT', image: 'images/team/karthiga.jpg', email: 'karthiga.r@sliit.lk' },
                 { name: 'Mr. Eishan Weerasinghe', role: 'Lecturer / Co-Supervisor', org: 'SLIIT', image: 'images/team/eishan.jpg', email: 'eishan.w@sliit.lk' },
-                { name: 'SSP Ramindu De Silva', role: 'External Supervisor', org: 'Sri Lanka Police', image: null }
               ].map((sup, idx) => (
-                <a key={idx} href={sup.email ? `mailto:${sup.email}` : '#'} className="bg-[#18181b] rounded-2xl p-6 border border-white/5 hover:bg-[#27272a] hover:shadow-xl hover:shadow-black/50 hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group">
-                  <div className="w-20 h-20 rounded-full bg-[#111111] mb-5 overflow-hidden border-2 border-white/10 shadow-sm flex items-center justify-center">
+                <a key={idx} href={`mailto:${sup.email}`} className="bg-[#18181b] rounded-2xl p-8 border border-white/5 hover:bg-[#27272a] hover:shadow-2xl hover:shadow-yellow-500/10 hover:-translate-y-1 transition-all duration-500 flex flex-col items-center text-center group cursor-pointer">
+                  <div className="w-24 h-24 rounded-full bg-[#111111] mb-6 overflow-hidden border-2 border-white/10 shadow-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                     {sup.image ? (
                       <img src={sup.image} alt={sup.name} className="w-full h-full object-cover" />
                     ) : (
                       <span className="text-2xl font-black text-gray-500">{sup.name.split(' ').map(n => n[0]).join('').slice(0, 2)}</span>
                     )}
                   </div>
-                  <h5 className="font-black text-lg text-white mb-1">{sup.name}</h5>
+                  <h5 className="font-black text-xl text-white mb-1 group-hover:text-yellow-500 transition-colors">{sup.name}</h5>
                   <p className="text-primary-dark font-bold text-sm mb-1">{sup.role}</p>
-                  {sup.email && <p className="text-yellow-500 font-bold text-[10px] mb-3 opacity-80">{sup.email}</p>}
+                  <p className="text-yellow-500 font-bold text-[11px] mb-4 opacity-80">{sup.email}</p>
                   <p className="text-gray-400 text-xs font-medium uppercase tracking-widest">{sup.org}</p>
                 </a>
               ))}
